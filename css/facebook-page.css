@@ -1,0 +1,201 @@
+.header {
+  height: 85px;
+  width: 100%;
+  background-color: rgb(59, 89, 152);
+  background: linear-gradient(rgb(78, 105, 162), rgb(59, 89, 152) 50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.header .left_section {
+  display: flex;
+  align-items: center;
+  margin-left: 189px;
+}
+
+.left_section img {
+  width: 170px;
+  margin-right: 10px;
+}
+
+.signup_btn {
+  background-color: var(--sign-up-button);
+  color: var(--white-color);
+  border: none;
+  padding: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.signup_btn:hover {
+  background-color: darkgreen;
+}
+
+
+.right_section {
+  margin-right: 200px;
+  position: relative;
+}
+
+.bx {
+  color: white;
+}
+
+.globalcontainer {
+  width: 981px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.globalcontainer .fb_content {
+  width: auto;
+  margin: 0;
+  min-height: 640px;
+  position: relative;
+}
+
+.fb_content .login_tooltip {
+  position: absolute;
+  background-color: white;
+  top: -10px;
+  right: 4px;
+  z-index: 20;
+  border-radius: 2px;
+  width: 26%;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .3);
+  /* display: none; */
+}
+
+.login_tooltip .login {
+  padding: 10px 15px 0;
+}
+
+.fb_content .bxs-up-arrow {
+  position: absolute;
+  font-size: 30px;
+  top: -15px;
+  right: 0px;
+  z-index: 999;
+}
+
+.email_password label {
+  display: block;
+}
+
+.email_password input {
+  width: 100%;
+  height: 30px;
+  padding: 0 2px;
+  border: 1px solid rgb(211, 214, 219);
+}
+
+.forget_password_container {
+  text-align: right;
+}
+
+.forget_password_container a {
+  text-decoration: none;
+  font-size: 12px;
+  color: var(--button-color-blue);
+
+}
+
+.forget_password_container a:hover {
+  text-decoration: underline;
+}
+
+.login_button_container {
+  margin: 15px 0;
+}
+
+.login_button_container button {
+  width: 100%;
+  height: 29px;
+  background-color: var(--button-color-blue);
+  padding: 0 16px;
+  border: none;
+  border-radius: 2px;
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.login_tooltip .do_you_want {
+  background-color: #f5f6f7;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.do_you_want p {
+  font-size: 12px;
+  padding: 10px 0;
+}
+
+.fb_content .page_container {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  height: 104px;
+  top: 110px;
+}
+
+.page_container h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.page_container p {
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.fb_content .page_center {
+  padding-top: 100px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  row-gap: 1rem;
+}
+
+._l1 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  flex: 1;
+  border-radius: 4px;
+  margin-right: 25px;
+  padding: 30px;
+  z-index: 10;
+  text-align: center;
+}
+
+._l1 img {
+  width: 200px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+._l1 h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  line-height: 20px;
+}
+
+._l1 p {
+  font-size: 14px;
+  color: rgb(144, 148, 156);
+  margin-bottom: 100px;
+}
+
+._l1 button {
+  background-color: rgb(219, 221, 225);
+  border: 1px solid rgb(144, 148, 156);
+  opacity: 0.5;
+  padding: 8px;
+  font-weight: 700;
+}

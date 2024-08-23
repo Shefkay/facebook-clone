@@ -1,0 +1,256 @@
+.signup_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, .75);
+  z-index: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  display: none;
+  margin: 0 auto;
+}
+
+.signup_container.showHide {
+  display: block;
+}
+
+.signup_card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner_signup_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin-top: 2rem;
+  background-color: white;
+  padding: 1rem;
+  overflow: visible;
+  box-shadow: var(--box-shadow);
+  border-radius: 8px;
+  height: 90%;
+  position: relative;
+}
+
+.close_button {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  z-index: 2;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.signup_title {
+  background-color: var(--white-color);
+  margin-top: 0;
+  padding-top: 10px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  width: 432px;
+  position: relative;
+  z-index: 1;
+}
+
+.signup_title_text {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.signup_title_subtext {
+  font-size: 14px;
+  color: rgb(96, 103, 112);
+}
+
+.content_curvee {
+  border-bottom: 1px solid rgb(218, 221, 225);
+  height: 8px;
+}
+
+.form_container {
+  margin: 0 auto 0 auto;
+}
+
+.registration_redesign {
+  width: 432px;
+  padding: 16px;
+  position: relative;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.mbm {
+  margin-bottom: 10px;
+  position: relative;
+  display: inline-block;
+}
+
+.mlm {
+  margin-right: 8px;
+}
+
+.fullname_field input {
+  padding: 10px 10px;
+  border-radius: 4px;
+  border: 1px solid #ccd0d5;
+  width: 194px;
+}
+
+.error {
+  display: none;
+}
+
+.bxs-error-circle {
+  position: absolute;
+  color: darkred;
+  top: 12px;
+  right: 20px;
+  font-size: 16px;
+}
+
+.mobile_placeholder input {
+  width: 399px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccd0d5;
+}
+
+.dateof_birth_text {
+  color: rgb(96, 103, 112);
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-top: 2px;
+  position: relative;
+}
+
+.dateof_birth_text a {
+  margin-left: 4px;
+  width: 12px;
+  height: 12px;
+}
+
+.birth_date-section_wrapper span {
+  display: inline-block;
+  position: relative;
+}
+
+.birthday_year_month_day {
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: normal;
+  height: 36px;
+  line-height: 20px;
+  color: rgb(28, 30, 33);
+  padding: 0 8px;
+  width: 125px;
+  border: 1px solid #ccd0d5;
+  vertical-align: top;
+}
+
+._month {
+  margin-left: 7px;
+}
+
+._year {
+  margin-left: 7px;
+}
+
+.gender_wrapper {
+  margin: 10px 0;
+  position: relative;
+}
+
+.gender_text_select {
+  display: flex;
+  width: 399px;
+  flex-wrap: wrap;
+  margin: -8px -6px -6px;
+}
+
+.gender_text {
+  background-color: var(--white-color);
+  border: 1px solid #ccd0d5;
+  flex: 1 0 auto;
+  height: 36px;
+  margin: 8px 6px 6px;
+  border-radius: 4px;
+  width: auto;
+  position: relative;
+  padding: 0;
+  font-weight: normal;
+}
+
+.label_name {
+  padding: 0 28px 0 10px;
+  line-height: 36px;
+  width: 100%;
+  font-size: 15px;
+  /* display: inline-block; */
+}
+
+.radio_select {
+  vertical-align: middle;
+  height: 36px;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  margin: 0;
+}
+
+.policy_wrapper {
+  width: 399px;
+}
+
+.policy_wrapper p {
+  margin: 1em 0;
+  width: auto;
+  font-size: 11px;
+  color: #777;
+}
+
+.policy_wrapper a {
+  color: var(--button-color-blue);
+}
+
+.policy_wrapper a:hover {
+  text-decoration: underline;
+}
+
+.signup_wrapper {
+  text-align: center;
+}
+
+.signup_btn {
+  background-color: var(--sign-up-button);
+  color: var(--white-color);
+  border: none;
+  margin: 10px 0;
+  font-size: 18px;
+  padding: 0 32px;
+  font-weight: bold;
+  height: 36px;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  min-width: 194px;
+  line-height: 22.65px;
+}
+
+.signup_btn:hover {
+  background-color: darkgreen;
+}
